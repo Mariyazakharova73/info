@@ -1,0 +1,30 @@
+.discovery__paragraph {
+	margin: 0;
+	font-size: 18px;
+	line-height: 163%;
+	margin-bottom: 26px;
+}
+
+.discovery__paragraph:last-of-type {
+	margin-bottom: 0px;
+}
+
+@media screen and (max-width: 1279px) {
+	.discovery__paragraph {
+		margin-bottom: 27px;
+	}
+}
+
+@media screen and (max-width: 1023px) {
+	.discovery__paragraph {
+		font-size: 16px;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.discovery__paragraph {
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+}

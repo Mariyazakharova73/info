@@ -1,0 +1,23 @@
+.discoveries {
+  padding: 92px 148px;
+}
+
+@media screen and (max-width: 1279px) {
+  .discoveries {
+    padding-left: 48px;
+    padding-right: 48px;
+    padding: 92px 48px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .discoveries {
+    padding: 88px 24px 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .discoveries {
+    padding: 64px 0 66px;
+  }
+}

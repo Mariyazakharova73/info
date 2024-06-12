@@ -1,0 +1,13 @@
+.discovery__link {
+	margin-top: 12px;
+	font-size: 18px;
+	line-height: 122%;
+	color: inherit;
+	transition: opacity 0.5s linear;
+	text-decoration: none;
+	border-bottom: 1px solid var(--text-color);
+}
+
+.discovery__link:hover {
+	opacity: 0.5;
+}

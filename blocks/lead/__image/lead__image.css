@@ -1,0 +1,5 @@
+.lead__image {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+}
