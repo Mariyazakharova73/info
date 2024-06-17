@@ -1,37 +1,37 @@
 .cover__background {
-  min-height: 62.5vw;
-  max-width: 100%;
-  background: url(../../../images/cover.jpg);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  text-decoration: none;
-  color: inherit;
-  position: relative;
-  background-size: cover;
-  border-radius: 10px;
-  box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+	min-height: 62.5vw;
+	max-width: 100%;
+	background: url(../../../images/cover.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+	color: inherit;
+	position: relative;
+	background-size: cover;
+	border-radius: 10px;
+	box-shadow: rgb(0, 0, 0) 0px 5px 15px;
 }
 
 .cover__background::before {
-  content: '';
-  background-color: var(--bg-color);
-  width: 100%;
-  height: 100%;
-  opacity: 0.3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transition: opacity 0.5s linear;
+	content: '';
+	background-color: var(--bg-color);
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: opacity 0.5s linear;
 }
 
 .cover__background:hover:before {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 @media screen and (min-width: 1280px) {
-  .cover__background {
-    min-height: 740px;
-  }
+	.cover__background {
+		min-height: 740px;
+	}
 }
