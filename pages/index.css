@@ -11,12 +11,10 @@
 @import url(../blocks/lead/__title/lead__title.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__image/lead__image.css);
-
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/intro/__title/intro__title.css);
 @import url(../blocks/intro/__text/intro__text.css);
 @import url(../blocks/intro/__list/intro__list.css);
-
 @import url(../blocks/discoveries/discoveries.css);
 @import url(../blocks/discovery/discovery.css);
 @import url(../blocks/discovery/__title/discovery__title.css);
@@ -25,6 +23,17 @@
 @import url(../blocks/discovery/__url-heading/discovery__url-heading.css);
 @import url(../blocks/discovery/__link/discovery__link.css);
 @import url(../blocks/discovery/__paragraph/discovery__paragraph.css);
-
 @import url(../blocks/photo/photo.css);
+@import url(../blocks/slider/slider.css);
 @import url(../blocks/photo/__item/photo__item.css);
+@import url(../blocks/photo/__button/photo__button.css);
+@import url(../blocks/photo/__button/_left/photo__button_left.css);
+@import url(../blocks/photo/__button/_right/photo__button_right.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

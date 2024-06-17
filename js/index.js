@@ -1,26 +1,22 @@
 let swiper = new Swiper('.photo__grid', {
 	slidesPerView: 1,
-	spaceBetween: 15,
-	// pagination: {
-	// 	el: '.gallery-pagination',
-	// 	type: 'fraction',
-	// },
+	spaceBetween: 20,
+	pagination: {
+		el: '.swiper-pagination',
+		type: 'fraction',
+	},
 	navigation: {
-		nextEl: '.slider-button_right',
-		prevEl: '.slider-button_left',
+		nextEl: '.photo__button_right',
+		prevEl: '.photo__button_left',
 	},
 	breakpoints: {
 		768: {
 			slidesPerView: 2,
-			spaceBetween: 10,
+			spaceBetween: 20,
 		},
 		1024: {
-			slidesPerView: 4,
-			spaceBetween: 10,
-		},
-		1440: {
-			slidesPerView: 4,
-			spaceBetween: 10,
+			slidesPerView: 2,
+			spaceBetween: 20,
 		},
 	},
 });

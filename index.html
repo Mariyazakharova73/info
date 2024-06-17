@@ -19,14 +19,14 @@
 					alt="Логотип"
 					class="header__logo"
 				/>
-				<ul class="header__lang-links">
+				<!-- <ul class="header__lang-links">
 					<li>
 						<a class="header__lang-link header__lang-link_active" href="#"
 							>Ru</a
 						>
 					</li>
 					<li><a class="header__lang-link" href="#">En</a></li>
-				</ul>
+				</ul> -->
 			</header>
 			<main class="content">
 				<section class="lead">
@@ -53,80 +53,52 @@
 					</p>
 				</section>
 				<section class="photo">
-					<!-- swiper -->
 					<div class="photo__grid swiper">
 						<div class="swiper-wrapper">
 							<img
-								src="./images/1.jpeg"
-								alt="Пейзаж"
 								class="photo__item swiper-slide"
+								src="./images/photo4.jpg"
+								alt="Наука."
 							/>
 							<img
-								src="./images/1.jpeg"
-								alt="Пейзаж"
 								class="photo__item swiper-slide"
-							/><img
-								src="./images/1.jpeg"
-								alt="Пейзаж"
-								class="photo__item"
-							/><img
-								src="./images/1.jpeg"
-								alt="Пейзаж"
-								class="photo__item swiper-slide"
+								src="./images/photo5.jpg"
+								alt="Наука."
 							/>
 							<img
-								src="./images/1.jpeg"
-								alt="Пейзаж"
 								class="photo__item swiper-slide"
+								src="./images/photo1.jpg"
+								alt="Наука."
+							/>
+							<img
+								class="photo__item swiper-slide"
+								src="./images/photo2.jpg"
+								alt="Наука."
+							/>
+							<img
+								class="photo__item swiper-slide"
+								src="./images/photo3.jpg"
+								alt="Наука."
+							/>
+
+							<img
+								class="photo__item swiper-slide"
+								src="./images/photo6.jpg"
+								alt="Наука."
 							/>
 						</div>
+						<div class="swiper-pagination"></div>
 					</div>
-					<!-- кнопки -->
 					<button
 						type="button"
-						class="slider-button slider-button_left"
+						class="photo__button photo__button_left"
 					></button>
 					<button
 						type="button"
-						class="slider-button slider-button_right"
+						class="photo__button photo__button_right"
 					></button>
 				</section>
 				<section class="discoveries">
-					<article class="discovery">
-						<h2 class="discovery__title">Система письма</h2>
-						<div class="discovery__website">
-							<p class="discovery__url-heading">URL</p>
-							<a
-								href="https://lifehacker.ru/tajna-risunkov-lednikovogo-perioda/"
-								target="_blank"
-								class="discovery__link"
-								>Узнать подробнее</a
-							>
-						</div>
-						<img
-							src="./images/discovery1.jpg"
-							alt="Система письма."
-							class="discovery__image"
-						/>
-						<div class="discovery__paragraphs">
-							<p class="discovery__paragraph">
-								До недавнего времени о значении пещерных рисунков можно было
-								только догадываться, но в январе 2023 года исследование,
-								опубликованное в "Кембриджском археологическом журнале",
-								возможно, наконец-то определило их назначение.
-							</p>
-							<p class="discovery__paragraph">
-								Исследователи сопоставили символы с циклами рождения животных,
-								изображенных на рисунках, и 13 годовыми лунными циклами, и, что
-								удивительно, обнаружили закономерность. Она указывает на то, что
-								эти знаки могут быть очень ранней - возможно, самой ранней -
-								системой обозначений, связанной с циклами спаривания и рождения
-								видов, которые могли быть добычей наших предков. В частности,
-								один символ, напоминающий букву "Y", был связан с рождением -
-								это первый известный случай такой связи в пещерных метках.
-							</p>
-						</div>
-					</article>
 					<article class="discovery">
 						<h2 class="discovery__title">Источник молодости</h2>
 						<div class="discovery__website">
@@ -234,6 +206,41 @@
 						</div>
 					</article>
 					<article class="discovery">
+						<h2 class="discovery__title">Система письма</h2>
+						<div class="discovery__website">
+							<p class="discovery__url-heading">URL</p>
+							<a
+								href="https://lifehacker.ru/tajna-risunkov-lednikovogo-perioda/"
+								target="_blank"
+								class="discovery__link"
+								>Узнать подробнее</a
+							>
+						</div>
+						<img
+							src="./images/discovery1.jpg"
+							alt="Система письма."
+							class="discovery__image"
+						/>
+						<div class="discovery__paragraphs">
+							<p class="discovery__paragraph">
+								До недавнего времени о значении пещерных рисунков можно было
+								только догадываться, но в январе 2023 года исследование,
+								опубликованное в "Кембриджском археологическом журнале",
+								возможно, наконец-то определило их назначение.
+							</p>
+							<p class="discovery__paragraph">
+								Исследователи сопоставили символы с циклами рождения животных,
+								изображенных на рисунках, и 13 годовыми лунными циклами, и, что
+								удивительно, обнаружили закономерность. Она указывает на то, что
+								эти знаки могут быть очень ранней - возможно, самой ранней -
+								системой обозначений, связанной с циклами спаривания и рождения
+								видов, которые могли быть добычей наших предков. В частности,
+								один символ, напоминающий букву "Y", был связан с рождением -
+								это первый известный случай такой связи в пещерных метках.
+							</p>
+						</div>
+					</article>
+					<article class="discovery">
 						<h2 class="discovery__title">Мышь от&nbsp;двух самцов</h2>
 						<div class="discovery__website">
 							<p class="discovery__url-heading">URL</p>
@@ -267,9 +274,58 @@
 					</article>
 				</section>
 
-		
+				<section class="cover">
+					<a
+						href="https://www.grunge.com/1445017/biggest-scientific-discoveries-2023/"
+						target="_blank"
+						class="cover__background"
+					>
+						<h2 class="cover__title">Больше удивительных открытий здесь</h2>
+						<p class="cover__subtitle">
+							Более подробная информация доступна по ссылке
+						</p>
+					</a>
+				</section>
 			</main>
-		
+			<footer class="footer">
+				<nav>
+					<ul class="footer__links">
+						<li>
+							<a
+								href="https://www.nasa.gov/"
+								target="_blank"
+								class="footer__link"
+								>NASA</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.livescience.com/"
+								target="_blank"
+								class="footer__link"
+								>LiveScience</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.sciencedaily.com/"
+								target="_blank"
+								class="footer__link"
+								>ScienceDaily</a
+							>
+						</li>
+						<li>
+							<a
+								href="https://www.space.com/"
+								target="_blank"
+								class="footer__link"
+								>Space</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<p class="footer__copyright">&copy; 2023. Мария Захарова</p>
+			</footer>
 		</div>
 		<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 		<script src="./js/index.js"></script>

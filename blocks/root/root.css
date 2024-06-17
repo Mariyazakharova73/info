@@ -1,5 +1,5 @@
 .root {
-	--bg-color: #19324a;
+	--bg-color: rgba(6, 19, 36, 0.8);
 	--text-color: #fff;
 	--text-muted: #aaaaaa;
 
@@ -18,19 +18,19 @@
 }
 
 .fade-in {
-  opacity: 0; /* начальное значение непрозрачности */
-  animation: fadeIn ease-in-out 1; /* добавляем анимацию fadeIn */
-  animation-fill-mode: forwards; /* будет видимым после завершения анимации */
-  animation-duration: 1.5s; /* длительность анимации в 1 секунду */
+	opacity: 0; /* начальное значение непрозрачности */
+	animation: fadeIn ease-in-out 1; /* добавляем анимацию fadeIn */
+	animation-fill-mode: forwards; /* будет видимым после завершения анимации */
+	animation-duration: 1.5s; /* длительность анимации в 1 секунду */
 }
 
 @keyframes fadeIn {
-  0% {
+	0% {
 		transform: scale(0.9);
-    opacity: 0;
-  }
-  100% {
+		opacity: 0;
+	}
+	100% {
 		transform: scale(1);
-    opacity: 1;
-  }
+		opacity: 1;
+	}
 }
